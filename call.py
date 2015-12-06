@@ -11,8 +11,3 @@ call = client.calls.create(to="+16504403103",  # Any phone number
                            from_="+12127296389",  # Must be a valid Twilio number
                            url="http://ec2-52-89-135-84.us-west-2.compute.amazonaws.com:5000")
 print call.sid
-
-call = client.calls.create(to="+13057619531",  # Any phone number
-                           from_="+12127296389",  # Must be a valid Twilio number
-                           url="http://ec2-52-89-135-84.us-west-2.compute.amazonaws.com:5000")
-print call.sid
